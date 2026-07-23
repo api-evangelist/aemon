@@ -1,7 +1,27 @@
 aid: aemon
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aemon.png
 name: Aemon
-description: Aemon is a company surfaced as a portfolio company of y-combinator and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Aemon is an autonomous AI research-and-development engineer founded in
+  2025 by Ray Xu and Richard Zhou and backed by Y Combinator (Winter 2026 batch).
+  Given an engineering problem and a measurable objective, Aemon reads state-of-the-art
+  research, then generates, tests, and evolves thousands of candidate approaches at
+  machine speed to discover optimal solutions that can exceed what human experts find.
+  The team demonstrated the approach by setting a new world record on the NP-hard
+  circle-packing optimization problem for under $10 of compute, beating a prior Google
+  DeepMind result. Aemon is an early-stage, demo-first enterprise product headquartered
+  in San Francisco; as of this profile it publishes no public developer API, SDKs,
+  or documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/aemon/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,9 +34,28 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Artificial Intelligence
+- Machine Learning
+- Research
+- Optimization
+- Autonomous Agents
+- Developer Tools
+- Y Combinator
 apis: []
+common:
+- type: DomainSecurity
+  url: security/aemon-domain-security.yml
+- type: Website
+  url: https://aemon.ai/
+- type: CompanyProfile
+  url: https://www.ycombinator.com/companies/aemon
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
